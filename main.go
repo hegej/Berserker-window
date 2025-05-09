@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	screenWidth := int32(800)
+	screenWidth := int32(1000)
 	screenHight := int32(1000)
 	var shakeOffsetX, shakeOffsetY float32
 	var message string
@@ -29,7 +29,7 @@ func main() {
 			shakeOffsetX = float32(rand.Intn(11) - 5)
 			shakeOffsetY = float32(rand.Intn(11) - 5)
 			message = "The world is at WAR - BERSERKER MODE ON!!!"
-			textColor = rl.Red
+			textColor = rl.Black
 		} else {
 			shakeOffsetX = 0
 			shakeOffsetY = 0
