@@ -17,7 +17,7 @@ func main() {
 	var message string
 	var textColor rl.Color
 
-	rl.InitWindow(screenWidth, screenHight, "Berserker Windows")
+	rl.InitWindow(screenWidth, screenHight, "Berserker Window")
 	defer rl.CloseWindow()
 
 	berserkerTexture := rl.LoadTexture("Viking_berserker_character.png")
